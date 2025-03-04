@@ -24,11 +24,11 @@ endif(APPLE)
 add_subdirectory(core)
 include_directories(core core/common core/contrib)
 
-include(FindPkgConfig)
-pkg_search_module(OPENCV opencv>=2.3 opencv-2.3.1 opencv-3.0.0)
+#include(FindPkgConfig)
+#pkg_search_module(OPENCV opencv>=2.3 opencv-2.3.1 opencv-3.0.0)
 
-if(OPENCV_FOUND)
-  include_directories(${OPENCV_INCLUDE_DIRS})
-  add_subdirectory(opencv)
-endif(OPENCV_FOUND)
+#if(OPENCV_FOUND)
+#  include_directories(${OPENCV_INCLUDE_DIRS})
+#  add_subdirectory(opencv)
+#endif(OPENCV_FOUND)
 
