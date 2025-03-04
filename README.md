@@ -7,7 +7,14 @@ based on <https://github.com/swatbotics/apriltag>
 Dependencies
 ------------
 
-  - OpenCV (optional)
+Since the opencv code was outdated and did not compile in modern versions, dependency was completely commented in the CMakeLists.txt
+
+Installation
+------------
+
+Can be directly installed through pip using:
+
+```pip install -qq git+https://github.com/gigcastro/apriltag.git```
 
 Example
 -------
